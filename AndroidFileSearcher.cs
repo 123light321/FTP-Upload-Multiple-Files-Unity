@@ -21,6 +21,9 @@ public class AndroidFileSearcher: MonoBehaviour
         //By Default
         fileTypeToFind = ".png";
         timeToWaitBeforeUploading = 15.0f;
+		
+		//Call this method where you want
+        uplaodListOfFiles();
     }
 
     public void GetFiles()
